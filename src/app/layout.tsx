@@ -16,7 +16,9 @@ export default function RootLayout({
         <header className="bg-gray-200 flex self-stretch justify-center p-6">
           Header
         </header>
-        <main className="flex items-center justify-center">{children}</main>
+        <main className="flex items-center justify-center h-screen">
+          {children}
+        </main>
         <footer className="bg-gray-200 flex self-stretch justify-center p-6">
           Footer
         </footer>
